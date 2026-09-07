@@ -16,12 +16,32 @@ Else
  
 Program:
 
-//type your code here
-
+```
+#include <stdio.h>
+struct eligible
+{
+    int age;
+    char n[50];
+};
+int main()
+{
+    struct eligible e;
+    scanf("%d", &e.age);
+    scanf("%s", e.n);
+    if (e.age <= 6)
+        printf("Vaccine Eligibility: No");
+    else
+        printf("Vaccine Eligibility: Yes");
+    printf("\n%d", e.age);
+    printf("\n%s", e.n);
+    return 0;
+}
+```
 
 Output:
+<img width="282" height="176" alt="image" src="https://github.com/user-attachments/assets/fe76c493-a490-4a79-a7f4-b33e296e0ae6" />
 
-//paste your output here
+
 
 
 Result:
@@ -44,16 +64,34 @@ Algorithm:
  
 Program:
 
-//type your code here
+```
+#include <stdio.h>
 
-
+struct numbers
+{
+    int a;
+    int b;
+};
+int add(struct numbers n)
+{
+    return n.a + n.b;
+}
+int main()
+{
+    struct numbers n;
+    printf("value of a: ");
+    scanf("%d", &n.a);
+    printf("value of b: ");
+    scanf("%d", &n.b);
+    printf("Sum = %d", add(n));
+    return 0;
+}
+```
 
 
 Output:
 
-
-//paste your output here
-
+<img width="730" height="311" alt="image" src="https://github.com/user-attachments/assets/3ec54468-1390-45e1-b82d-d2451e1f2157" />
 
 
 
@@ -86,25 +124,14 @@ Use scanf to input the file name into the name array.
  
 Program:
 
-//type your code here
+<img width="436" height="386" alt="image" src="https://github.com/user-attachments/assets/bdb7cd61-6e1a-4d75-9642-f2a359d36456" />
+
 
 
 
 
 Output:
-
-
-//paste your output here
-
-
-
-
-
-
-
-
-
-
+<img width="307" height="167" alt="image" src="https://github.com/user-attachments/assets/33f9cc3a-267d-4401-84c5-08e7de9ded12" />
 
 Result:
 Thus, the program is verified successfully
@@ -133,19 +160,12 @@ Use scanf to input the file name into the name array and the number of strings i
  
 Program:
 
-//type your code here
-
-
+<img width="455" height="433" alt="image" src="https://github.com/user-attachments/assets/993ca151-89d2-4b9f-9001-13d400ca76a3" />
 
 
 Output:
 
-
-//paste your output here
-
-
-
-
+<img width="365" height="58" alt="image" src="https://github.com/user-attachments/assets/5ec8945a-bcbc-4993-8b0e-3b144c2a2e1e" />
 
 
 Result:
@@ -186,19 +206,12 @@ Algorithm:
 13.End the program by returning 0.
 
 Program:
-
-//type your code here
-
-
+<img width="443" height="508" alt="image" src="https://github.com/user-attachments/assets/6f27df57-c26f-4fa4-9472-9be38af2d97f" />
 
 
 Output:
 
-
-//paste your output here
-
-
-
+<img width="268" height="271" alt="image" src="https://github.com/user-attachments/assets/4a161654-b662-48f5-a379-9e336392c66c" />
 
 
 
